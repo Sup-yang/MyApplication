@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\AndroidStudioProjects\ApiDemos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_e2d15c1468a232c3f7a41a6dbcb2cb94c085c0ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\ApiDemos1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a82bb513402cf1a7f4b5e84f00bdfc91f57febed">
+        <dex dex="D:\AndroidStudioProjects\ApiDemos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d45c68832c3f316620d9d8d93fffe95094207728\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProjects\ApiDemos1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b2ece5a7d195278b2207c3c12a36dad10a22840">
+        <dex dex="D:\AndroidStudioProjects\ApiDemos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bea104e80a5144f9c715a6a4ef391ba511b49dc8\classes.dex" />
+    </item>
+
+</items>

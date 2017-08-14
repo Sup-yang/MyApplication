@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    tools:context=".ui.Mc.FourFragment">
+
+
+
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:layout_height="30sp"
+            android:text="平台收款账号"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:text="账户名称："
+                android:textSize="16dp"
+                android:layout_width="80dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="14dp"
+                android:text="江苏盛世众华网络科技有限公司"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textSize="16dp"
+                android:text="开户支行："
+                android:layout_width="80dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="14dp"
+                android:text="中国农民银行"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textSize="@dimen/dimen_16"
+                android:text="账户名称："
+                android:layout_width="80dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textSize="@dimen/dimen_13"
+                android:text="62284865456464646"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="转账银行"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写转账银行"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/four_edit_zhuanzhuang_yenhang"
+            android:maxLength="6"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="银行户名"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/spinner_fragmentgour"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="银行卡号"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写银行卡号"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxLength="19"
+            android:inputType="number"
+            android:background="@null"
+            android:layout_weight="1"
+            android:id="@+id/four_edit_yenhang_kahao"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="充值金额"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写充值金额"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/four_edit_chongzhi_jinge"
+            android:inputType="number"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:text="凭证上传"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:background="@drawable/cz_01"
+            android:layout_gravity="center_vertical"
+            android:layout_width="180dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_corners"
+        android:text="确定"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/four_button_pueren" />
+</LinearLayout>

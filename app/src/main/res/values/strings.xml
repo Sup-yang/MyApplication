@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">盛世众华</string>
+    <string name="action_settings">银行列表</string>
+
+    <string name="hello_blank_fragment">未实现的界面</string>
+
+
+    <string name="scan_text">小样，想扫二维码，还不对准了！！</string>
+</resources>

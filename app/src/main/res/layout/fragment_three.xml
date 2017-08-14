@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    tools:context=".ui.Mc.ThreeFragment">
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="姓名"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写姓名"
+            android:id="@+id/three_edit_xingming"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="手机号"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写手机号"
+            android:id="@+id/three_edit_shujihao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:maxLength="11"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="开户行名称"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写开户行名称"
+            android:id="@+id/three_edit_yenhang_kaihuhang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxLength="19"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="银行卡号"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写银行卡号"
+            android:id="@+id/three_edit_yenhangkahao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:maxLength="16"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="身份证号"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请填写身份证号"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:maxLength="18"
+            android:id="@+id/three_edit_shenfenzhenhao"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_corners"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/three_button_quedin" />
+
+</LinearLayout>

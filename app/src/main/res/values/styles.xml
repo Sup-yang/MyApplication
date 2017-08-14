@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+
+
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>-->
+    <style name="search_view">
+    <item name="android:textSize">16dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:textColorHint">@color/white</item>
+    <item name="android:background">@color/colorGreen</item>
+    <item name="android:singleLine">true</item>
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+
+
+    <style name="StyleEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_search_bar</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableStart">@mipmap/icon_search</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/gray_white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:hint">搜索</item>
+    </style>
+
+    <style name="StyleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--自定义dialog 对话框-->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!---->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--/显示/浮于activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--dialog以外的区域模糊效果-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--对话框无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--对话框半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--dialog进入以及退出动画-->
+
+
+    </style>
+
+    <!-- actionSheet 的进入及退出动画-->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+
+    </style>
+
+    <style name="TransferDialogStyle" parent="@android:style/Theme.Dialog">
+        <!--/显示/浮于activity之上-->
+
+        <!-- 边框-->
+
+        <item name="android:windowFrame">@null</item>
+        <!--对话框无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background" >@android:color/transparent</item>
+        <!--对话框半透明-->
+
+        <item name="android:windowIsTranslucent">false</item>
+        <!--dialog以外的区域模糊效果-->
+
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/result_points</item>
+        <item name="colorPrimaryDark">@color/colorGreen</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="ApppTheme" parent="@style/BaseAppTheme">
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="支付密码："
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请输入支付密码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_item_zhifumima" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="确认支付密码："
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textSize="14dp"
+            android:hint="请输入支付密码"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_item_queren_zhifumima" />
+
+    </LinearLayout>
+
+</LinearLayout>

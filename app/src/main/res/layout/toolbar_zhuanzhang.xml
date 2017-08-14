@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_toolbar"
+    android:background="@color/colorGreen"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="20dp"
+    style="@style/search_view"
+    android:fitsSystemWindows="true"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:minHeight="70dp"
+>
+    <ImageView
+        android:id="@+id/title1_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:visibility="visible"
+        android:src="@drawable/ic_chevron_left_black_24dp"/>
+
+    <TextView
+        android:id="@+id/toolbar_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:singleLine="true"
+        android:text="好友转账"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/title1_right"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="转账明细"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:visibility="visible"
+        />
+
+</android.support.v7.widget.Toolbar>

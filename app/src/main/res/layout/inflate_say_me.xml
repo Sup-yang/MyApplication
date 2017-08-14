@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="120dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_widthPercent="19%"
+        app:layout_heightPercent="50%"
+        app:srcCompat="@drawable/jy__01"
+        app:layout_marginTopPercent="20%"
+        app:layout_marginLeftPercent="77%"
+        android:id="@+id/say_image_toxiang" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        app:layout_widthPercent="38%"
+        app:layout_heightPercent="60%"
+        app:layout_marginTopPercent="40%"
+        app:layout_marginLeftPercent="38%"
+        app:srcCompat="@drawable/jy__03"/>
+
+    <TextView
+        android:text="2017-3-25-00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="19.5%"
+        app:layout_marginLeftPercent="42%"
+        android:id="@+id/say_text_shjian" />
+
+    <TextView
+        android:text="转出购物币"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="58%"
+        app:layout_marginLeftPercent="50%"
+        android:id="@+id/say_text_leixing" />
+
+    <TextView
+        android:text="100个"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="73.5%"
+        app:layout_marginLeftPercent="54%"
+        android:id="@+id/say_text_geshu" />
+
+
+</android.support.percent.PercentFrameLayout>

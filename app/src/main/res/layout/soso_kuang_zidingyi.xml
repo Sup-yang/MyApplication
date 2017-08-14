@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity" >
+
+    <!--<TextView-->
+        <!--style="@style/StyleTextView"-->
+        <!--android:text="默认样式" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_search"-->
+        <!--style="@style/StyleEditText" />-->
+
+    <!--<TextView-->
+        <!--style="@style/StyleTextView"-->
+        <!--android:text="居中样式" />-->
+
+    <baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.zidingyi_soso.IconCenterEditText
+
+        android:id="@+id/icet_search"
+        style="@style/StyleEditText" />
+
+</RelativeLayout>

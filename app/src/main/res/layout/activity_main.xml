@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorGreen"
+        android:id="@+id/toolBar"
+        android:layout_alignParentTop="true"
+        android:fitsSystemWindows="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="首页"
+            android:textSize="20dp"
+            android:id="@+id/first"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager"
+        android:layout_above="@+id/buttonBar"
+        android:layout_below="@+id/toolBar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBar"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGreen"
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/sytb_02"
+            android:id="@+id/btnShengshi"
+            android:gravity="bottom|center"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="14dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/syt_03"
+            android:id="@+id/btnAround"
+            android:gravity="bottom|center"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="14dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/syt_04"
+            android:id="@+id/btnTreasure"
+            android:gravity="bottom|center"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="14dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/syt_05"
+            android:id="@+id/btnSet"
+            android:gravity="bottom|center"
+            android:textColor="@drawable/selector_color_accent"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

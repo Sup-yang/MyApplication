@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zhuanzhuang_jilu_demo"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#75e7e6e5"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/zhuanzhang_mingxi_demo_"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            app:srcCompat="@drawable/ic_launcher"
+            android:padding="7dp"
+            android:id="@+id/zhuanzhang_jilu_image" />
+
+        <TextView
+            android:text="多多"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:paddingTop="15dp"
+            android:id="@+id/zhuanzhang_jilu_text_name"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingRight="13dp"
+            android:paddingBottom="7dp"
+            android:id="@+id/zhuanzhang_jilu_text_shijian" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.ui.Wode_Zhanghu_yueFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:background="#bdffb5"
+        app:srcCompat="@drawable/caifu_jb_03"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="我的账户余额"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:background="#bdffb5"
+        android:gravity="center"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bdffb5"
+        android:paddingTop="14dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:id="@+id/zhanghu_yue_text" />
+
+    <Button
+        android:text="充值"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/zhanghu_yue_chongzhi"
+        android:textColor="#fafcf9"
+        android:textSize="18dp"
+        android:id="@+id/zhanghu_yue_button_chongzhi" />
+
+    <Button
+        android:text="提现"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/zhanghu_yue_tixian"
+        android:textColor="#79f543"
+        android:textSize="18dp"
+        android:id="@+id/zhanghu_yue_button_tixian" />
+</LinearLayout>

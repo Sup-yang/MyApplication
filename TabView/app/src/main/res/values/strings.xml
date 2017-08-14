@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TabView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="title"
+          >
+        <item>登录</item>
+        <item>注册</item>
+    </array>
+</resources>

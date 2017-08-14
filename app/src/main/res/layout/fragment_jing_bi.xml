@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.ui.caifu.JingBiFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bdffb5"
+        android:orientation="vertical"
+        android:id="@+id/caifu_button_jingbi_yue">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/jb_01" />
+
+        <TextView
+            android:text="我的账户余额"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="14dp"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+    </LinearLayout>
+    <Button
+        android:text="充值"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/zhanghu_yue_chongzhi"
+        android:textColor="#fafcf9"
+        android:textSize="18dp"
+        android:id="@+id/caifu_button_jingbi_chongzhi" />
+
+</LinearLayout>

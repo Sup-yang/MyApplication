@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.ui.Zhuanzhang_jiluFragment">
+
+    <include layout="@layout/soso_kuang_zidingyi" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/zhuanzhang_jilu2_recycler" />
+
+</LinearLayout>

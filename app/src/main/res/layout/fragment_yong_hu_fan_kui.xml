@@ -1,0 +1,63 @@
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:orientation="vertical"
+  android:layout_height="match_parent"
+  android:background="@color/colorGray"
+  tools:context=".ui.set.YongHuFanKuiFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9%"
+        android:text="您的意见可以帮助我们做的更好"
+        android:paddingLeft="25dp"
+        android:gravity="center|left"
+        android:textSize="16dp"
+        android:textColor="@color/grey"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="8%"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/yonghufankui_edittext_biaoti"
+        android:hint="输入信息标题"
+        android:textSize="15dp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="40%"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        app:layout_marginTopPercent="18%"
+        android:id="@+id/yonghufankui_edittext_jianyi"
+        android:layout_marginRight="20dp"
+        android:gravity="start"
+        android:textSize="15dp"
+        android:hint="非常乐意聆听您对鸡蛋管家的意见或建议"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_marginTopPercent="19%"
+        android:textColor="@color/white"
+        android:id="@+id/yonghufankui_button_tijiao"
+        android:background="@drawable/selector_button_background"
+        app:layout_widthPercent="70%"
+        app:layout_heightPercent="7%"
+        android:textSize="15dp"
+        android:text="提交"
+        android:layout_gravity="center|center_horizontal"
+        />
+
+
+</android.support.percent.PercentFrameLayout>

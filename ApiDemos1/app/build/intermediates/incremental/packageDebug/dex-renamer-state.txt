@@ -1,0 +1,7 @@
+#Mon Apr 17 17:09:29 GMT+08:00 2017
+base.0=D\:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d45c68832c3f316620d9d8d93fffe95094207728
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bea104e80a5144f9c715a6a4ef391ba511b49dc8\\classes.dex
+base.1=D\:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_bea104e80a5144f9c715a6a4ef391ba511b49dc8
+file.0=D\:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d45c68832c3f316620d9d8d93fffe95094207728\\classes.dex

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/shengshi_fragments"
+             tools:context=".ui.ShengShiFragment">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/vp_firstFragment"
+        android:layout_weight="1"
+        android:background="@drawable/shuye_title"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:id="@+id/grideView"
+        ></GridView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/dim"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@color/dim"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_college"
+                android:background="@color/white"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sy_001" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_shop"
+                android:background="@color/white"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sy_002" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/dim"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:id="@+id/btn_know"
+                android:background="@color/white"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sy_005" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:id="@+id/btn_choujiang"
+                android:background="@color/white"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sy_006" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_jiandao"
+                android:background="@color/white"
+                app:srcCompat="@drawable/sy_004" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

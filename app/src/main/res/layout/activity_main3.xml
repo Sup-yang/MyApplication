@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.Main3Activity">
+
+    <baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.toolbar.Toolbar_putong
+        android:id="@+id/toolbar_title_main3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/search_view"
+        android:layout_gravity="center">
+
+    </baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.toolbar.Toolbar_putong>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main3_recycler"
+        android:layout_below="@+id/toolbar_title_main3" />
+
+</RelativeLayout>

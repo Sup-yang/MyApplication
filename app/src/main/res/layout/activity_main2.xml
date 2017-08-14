@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.Main2Activity">
+
+    <baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.toolbar.Toolbar_putong
+        android:id="@+id/toolbar_title_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/search_view"
+        android:layout_gravity="center">
+
+
+    </baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.toolbar.Toolbar_putong>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main2_layout_fragment"
+        android:layout_below="@+id/toolbar_title_chat"></LinearLayout>
+
+
+</RelativeLayout>

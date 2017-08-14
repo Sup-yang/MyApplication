@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhi_fu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.ui.zhifu.ZhiFuActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="280dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/cela_quxiao"
+        android:layout_height="175dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="转账"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/select_btn_background_whit"
+            android:hint="请输入购物币个数"
+            android:layout_weight="1"
+            android:id="@+id/edt_dialogTransfer"
+            android:inputType="number"
+            />
+        <!--android:digith="0123456789"-->
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/button_main_tan"
+            android:background="@drawable/selector_button_background"
+            android:text="转账"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/denlu_benjin"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        app:layout_marginLeftPercent="36%"
+        app:layout_marginTopPercent="10%"
+        android:src="@drawable/shangbiao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="16%"
+        app:layout_widthPercent="26%"
+        />
+
+    <TextView
+        app:layout_marginLeftPercent="38.25%"
+        app:layout_marginTopPercent="26.5%"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="18dp"
+        android:text="盛世众华"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="23%"/>
+
+    <TextView
+        android:textStyle="bold"
+        app:layout_marginLeftPercent="38.7%"
+        app:layout_marginTopPercent="31%"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="7dp"
+        android:text="THE SPIRIT OF CHINA"
+        app:layout_heightPercent="3%"
+        app:layout_widthPercent="22%"/>
+
+
+
+
+
+    <EditText
+        android:textSize="15dp"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginTopPercent="37%"
+        android:hint="请输入账号或者手机号码"
+        android:background="@drawable/shezhimima_rightimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/geren_denlu_edittext_denluming"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="55%"
+        />
+
+    <ImageView
+        android:src="@drawable/denlu_xiala"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="5%"
+        app:layout_widthPercent="6%"
+        app:layout_marginLeftPercent="76%"
+        app:layout_marginTopPercent="38%"
+        />
+
+    <ImageView
+        android:padding="4dp"
+        android:background="@drawable/mimazhuce_imageleft"
+        app:layout_marginLeftPercent="15%"
+        android:gravity="center"
+        app:layout_marginTopPercent="37%"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="15%"
+       android:src="@drawable/mimazhuce_touxiang"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="107dp" />
+
+
+
+
+    <ImageView
+        android:padding="4dp"
+        app:layout_marginLeftPercent="15%"
+        android:background="@drawable/mimazhuce_imageleft"
+        android:gravity="center"
+        app:layout_marginTopPercent="47%"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="15%"
+        android:textSize="16dp"
+        android:src="@drawable/mimashezhi_suo"
+        android:layout_alignParentTop="true"/>
+
+
+    <EditText
+        android:background="@drawable/shezhimima_rightimage"
+        android:textSize="15dp"
+        app:layout_marginLeftPercent="30%"
+        app:layout_marginTopPercent="47%"
+        android:hint="请输入密码"
+        android:id="@+id/geren_denlu_edittext_mima"
+        android:maxLength="20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="55%"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7%"
+        app:layout_widthPercent="70%"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginTopPercent="59%"
+        android:background="@drawable/button_corners"
+        android:text="登录"
+        android:id="@+id/geren_denlu_button"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="107dp" />
+
+    <TextView
+        app:layout_marginLeftPercent="29%"
+        android:textSize="14dp"
+        android:gravity="center"
+        app:layout_marginTopPercent="77%"
+        android:textColor="#ffffff"
+        android:text="还没有账号？"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_heightPercent="4%"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="107dp" />
+
+
+    <TextView
+        app:layout_marginLeftPercent="52%"
+        android:textSize="14dp"
+        android:gravity="center"
+        app:layout_marginTopPercent="77.05%"
+        android:textColor="#32CD32"
+        android:text="手机注册"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/geren_denlu_text_zhuce"
+        app:layout_heightPercent="4%"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="107dp" />
+
+
+
+    <TextView
+        android:textSize="14dp"
+        app:layout_marginLeftPercent="64%"
+        android:gravity="center"
+        app:layout_marginTopPercent="67%"
+        android:textColor="#ffffff"
+        android:text="忘记密码？"
+        android:id="@+id/geren_denlu_text_wangjimima"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_heightPercent="4%"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="107dp" />
+
+
+</android.support.percent.PercentRelativeLayout>
+

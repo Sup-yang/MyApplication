@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds.xml",
+        "source": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\src\\main\\res\\transition\\changebounds.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds_fadein_together.xml",
+        "source": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\src\\main\\res\\transition\\changebounds_fadein_together.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\transitions_mgr.xml",
+        "source": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\src\\main\\res\\transition\\transitions_mgr.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds_fadeout_sequential.xml",
+        "source": "D:\\AndroidStudioProjects\\ApiDemos1\\app\\src\\main\\res\\transition\\changebounds_fadeout_sequential.xml"
+    }
+]

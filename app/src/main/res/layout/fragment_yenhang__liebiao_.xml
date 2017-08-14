@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="baidu_ditu1.lenovo.example.com.awdawdas.dtanfgtiaxia.ui.Yenhang_LIebiao_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yenhang_gongshang">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            app:srcCompat="@drawable/yh_01"/>
+
+        <TextView
+            android:text="中国工商银行"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="40dp"
+            android:textColor="#0b0b0b"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/rights"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yenhang_jianshe">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            app:srcCompat="@drawable/yh_02"/>
+
+        <TextView
+            android:text="中国建设银行"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="40dp"
+            android:textColor="#0b0b0b"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/rights"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yenhang_zhonggo">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            app:srcCompat="@drawable/yh_03"/>
+
+        <TextView
+            android:text="中国银行"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="40dp"
+            android:textColor="#0b0b0b"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/rights"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yenhang_nongye">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            app:srcCompat="@drawable/yh_04"/>
+
+        <TextView
+            android:text="中国农业银行"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="40dp"
+            android:textColor="#0b0b0b"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/rights"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yenhang_jiangtong">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            app:srcCompat="@drawable/yh_05"/>
+
+        <TextView
+            android:text="交通银行"
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_height="40dp"
+            android:textColor="#0b0b0b"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:drawableRight="@drawable/rights"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

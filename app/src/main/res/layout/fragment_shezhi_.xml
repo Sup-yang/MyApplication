@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Shezhi_Fragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="头像"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:gravity="center_vertical"
+        android:textSize="16dp"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text1_toxiang" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="账号"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:id="@+id/shezhi_text2_zhanghao" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="姓名"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text3_xingmin" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="性别"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text4_xingbie" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="生日"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text5_shener" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="邮箱"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text6_youxiang" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:text="手机号"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/rights"
+        android:id="@+id/shezhi_text7_shuji" />
+</LinearLayout>
